@@ -1,0 +1,4 @@
+llm:
+  api_type: 'gemini'
+  api_key: 'AIzaSyA9eVk8-ZFHnlPvldpiF9XjvDBwk8E1QJw'
+  model: 'gemini-pro'

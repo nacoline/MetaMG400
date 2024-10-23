@@ -1,0 +1,37 @@
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
+# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
+# Config Docs: https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html
+
+llm:
+  api_type: 'openai'
+  base_url: "https://xa.blackbox.red/v1"
+  api_key: 'sk-BdKgJzK5EKqDNII9Fc5bA16012C740478b9078A968F645A5'
+  model: 'gpt-3.5-turbo'
+  # proxy: "http://localhost:33210"
+
+# llm:
+#   api_type: 'openai'
+#   base_url: "https://api.chatanywhere.tech/v1"
+#   api_key: 'sk-LbwjEumr0L2QogrAbSxSmZyGRhYb1IHiVuRB5h9ija8eBOCS'
+#   model: 'gpt-3.5-turbo'
+#   # proxy: "http://localhost:33210"
+
+# llm:
+#   api_type: 'openai'
+#   base_url: "https://api.gpts.vin"
+#   api_key: 'sk-fi60JwUq9Lm5dBmtDf5dDe1f0f764eD681B47f54DdD0EbF1'
+#   model: 'gpt-3.5-turbo'
+
+# llm:
+#   api_type: 'qianfan'
+#   base_url: "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions?access_token=24.5c8412a5c24de165c7cdcf0395de8e06.2592000.1724998350.282335-101103889"
+#   api_key: 'lzxYo4TxPWyPgtQipEcxDKxo'
+#   secret_key: 'qUQfLytFqwjrVzd7Fi3wsfz81qBgeMXY'
+#   model: 'ERNIE-3.5-8K-0329'
+
+# llm:
+#   api_type: 'qianfan'
+#   base_url: "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions?access_token=24.d81b0c42c99d3a2fc454e12a18339e37.2592000.1725005123.282335-101072226"
+#   api_key: 'fouqpSsxAUMDNSZpn4FXsusF'
+#   secret_key: 'jBdge1ItybaIkyT52n7vHLnjdUt6UC8F'
+#   model: 'ERNIE-3.5-8K-0329'
